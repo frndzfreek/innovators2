@@ -11,7 +11,7 @@ data = pd.read_csv(DATA_PATH)
 
 # AI model for ticket classification
 model = pipeline("zero-shot-classification")
-categories = ["Network Issue", "Server Failure", "Database Problem"]
+categories = ["Incident ID","Incident Type","Security","Description","Status","Time Reported","Time Resolved","Solution","Category","Root Cause"]
 
 # API models
 class Incident(BaseModel):
