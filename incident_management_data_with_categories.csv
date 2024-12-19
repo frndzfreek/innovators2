@@ -1,0 +1,101 @@
+Incident ID,Incident Type,Severity,Description,Status,Time Reported,Time Resolved,Solution,Category,Root Cause
+INC0001,Application Bug,Medium,UI freezing,Closed,2024-05-08 21:57:08.781780,2024-05-08 22:57:08.781780,Release a new update,Application,Crash due to high traffic
+INC0002,Network Issue,Critical,Slow network speed,Open,2024-06-22 04:57:08.781807,2024-06-23 12:57:08.781807,Reset router,Security,Phishing attack
+INC0003,Network Issue,Medium,Slow network speed,Open,2024-05-26 18:57:08.781820,2024-05-27 14:57:08.781820,Increase bandwidth,Database,Connection timeout
+INC0004,Security Breach,Critical,Malware infection,Resolved,2024-07-20 00:57:08.781832,2024-07-22 19:57:08.781832,Change credentials,Server,Hardware failure
+INC0005,Application Bug,Critical,UI freezing,Open,2024-02-05 05:57:08.781853,2024-02-06 17:57:08.781853,Release a new update,Network,Router failure
+INC0006,Server Failure,Low,Server crash due to high load,Closed,2024-12-18 06:57:08.781865,2024-12-18 22:57:08.781865,Reboot server,Security,Data breach
+INC0007,Security Breach,Medium,Malware infection,Closed,2024-02-25 03:57:08.781875,2024-02-26 17:57:08.781875,Run antivirus scan,Database,Connection timeout
+INC0008,Server Failure,Critical,Overloaded server,Resolved,2023-12-20 08:57:08.781886,2023-12-20 14:57:08.781886,Reboot server,Server,Power outage
+INC0009,Network Issue,Critical,Network connectivity issues,Closed,2024-11-06 13:57:08.781897,2024-11-07 15:57:08.781897,Increase bandwidth,Server,Hardware failure
+INC0010,Network Issue,High,Network connectivity issues,Resolved,2024-01-15 11:57:08.781907,2024-01-16 12:57:08.781907,Reset router,Database,Query performance issue
+INC0011,Network Issue,Medium,DNS resolution problem,Resolved,2024-07-18 23:57:08.781917,2024-07-19 10:57:08.781917,Clear DNS cache,Network,Cable disconnection
+INC0012,Application Bug,High,Memory leak,Closed,2024-06-18 05:57:08.781928,2024-06-20 22:57:08.781928,Fix memory leak,Application,Crash due to high traffic
+INC0013,Application Bug,High,UI freezing,Closed,2024-06-22 06:57:08.781938,2024-06-23 11:57:08.781938,Fix memory leak,Database,Connection timeout
+INC0014,Application Bug,Medium,UI freezing,Resolved,2024-04-07 10:57:08.781949,2024-04-09 15:57:08.781949,Release a new update,Database,Query performance issue
+INC0015,Database Error,Critical,Database connection failure,Closed,2024-12-04 08:57:08.781959,2024-12-04 15:57:08.781959,Restart database,Application,Memory leak
+INC0016,Network Issue,High,Network connectivity issues,Closed,2024-09-11 19:57:08.781969,2024-09-12 07:57:08.781969,Reset router,Security,Malware infection
+INC0017,Server Failure,Critical,Overloaded server,Open,2024-05-07 08:57:08.781979,2024-05-09 22:57:08.781979,Increase server resources,Security,Data breach
+INC0018,Security Breach,High,Phishing attack,Resolved,2024-01-10 14:57:08.781989,2024-01-11 02:57:08.781989,Patch vulnerabilities,Network,Router failure
+INC0019,Server Failure,Medium,Server downtime,Closed,2024-12-04 09:57:08.782000,2024-12-05 07:57:08.782000,Increase server resources,Database,Data corruption
+INC0020,Network Issue,Critical,Network connectivity issues,Open,2024-12-06 17:57:08.782010,2024-12-08 08:57:08.782010,Clear DNS cache,Server,Configuration issue
+INC0021,Security Breach,High,Malware infection,Closed,2024-09-04 08:57:08.782020,2024-09-07 03:57:08.782020,Patch vulnerabilities,Application,Bug in code
+INC0022,Network Issue,High,DNS resolution problem,Open,2024-07-17 14:57:08.782030,2024-07-18 09:57:08.782030,Increase bandwidth,Network,Router failure
+INC0023,Server Failure,High,Server downtime,Closed,2024-11-20 11:57:08.782040,2024-11-22 18:57:08.782040,Reboot server,Server,Hardware failure
+INC0024,Network Issue,Critical,Network connectivity issues,Closed,2024-12-13 08:57:08.782051,2024-12-15 15:57:08.782051,Reset router,Database,Query performance issue
+INC0025,Network Issue,High,Network connectivity issues,Closed,2024-02-16 12:57:08.782062,2024-02-17 16:57:08.782062,Clear DNS cache,Application,Crash due to high traffic
+INC0026,Network Issue,High,DNS resolution problem,Resolved,2024-04-06 17:57:08.782073,2024-04-09 17:57:08.782073,Reset router,Application,Crash due to high traffic
+INC0027,Database Error,Medium,Data corruption,Closed,2024-03-11 23:57:08.782084,2024-03-14 16:57:08.782084,Restart database,Server,Hardware failure
+INC0028,Server Failure,Low,Server crash due to high load,Open,2024-11-10 16:57:08.782095,2024-11-13 01:57:08.782095,Check server logs,Application,Bug in code
+INC0029,Database Error,Medium,Database connection failure,Closed,2024-01-10 04:57:08.782105,2024-01-12 08:57:08.782105,Fix corrupted data,Database,Data corruption
+INC0030,Network Issue,Low,DNS resolution problem,Open,2024-04-29 23:57:08.782146,2024-04-30 00:57:08.782146,Clear DNS cache,Database,Data corruption
+INC0031,Database Error,Medium,Slow database queries,Closed,2024-09-01 05:57:08.782169,2024-09-02 01:57:08.782169,Optimize database queries,Application,Bug in code
+INC0032,Database Error,Medium,Slow database queries,Closed,2024-07-29 20:57:08.782180,2024-07-30 17:57:08.782180,Restart database,Security,Phishing attack
+INC0033,Network Issue,High,Slow network speed,Closed,2024-05-24 07:57:08.782190,2024-05-25 08:57:08.782190,Increase bandwidth,Server,Power outage
+INC0034,Network Issue,Low,Slow network speed,Resolved,2024-08-31 11:57:08.782201,2024-09-02 14:57:08.782201,Increase bandwidth,Server,Server overload
+INC0035,Security Breach,Critical,Unauthorized access,Closed,2024-09-02 11:57:08.782212,2024-09-05 09:57:08.782212,Run antivirus scan,Network,Cable disconnection
+INC0036,Server Failure,Low,Server crash due to high load,Resolved,2024-02-22 19:57:08.782223,2024-02-24 20:57:08.782223,Increase server resources,Application,Bug in code
+INC0037,Database Error,Critical,Database connection failure,Open,2024-04-22 06:57:08.782233,2024-04-22 22:57:08.782233,Fix corrupted data,Network,Bandwidth congestion
+INC0038,Server Failure,Low,Server downtime,Resolved,2024-03-03 16:57:08.782244,2024-03-06 04:57:08.782244,Increase server resources,Security,Data breach
+INC0039,Application Bug,Critical,Memory leak,Resolved,2024-04-26 03:57:08.782254,2024-04-29 01:57:08.782254,Fix memory leak,Application,Memory leak
+INC0040,Database Error,Low,Slow database queries,Resolved,2024-03-14 13:57:08.782264,2024-03-15 21:57:08.782264,Restart database,Server,Configuration issue
+INC0041,Application Bug,Low,Application crash,Closed,2024-05-31 21:57:08.782274,2024-06-01 10:57:08.782274,Release a new update,Security,Phishing attack
+INC0042,Application Bug,Critical,UI freezing,Open,2024-10-23 13:57:08.782285,2024-10-23 15:57:08.782285,Debug the code,Security,Data breach
+INC0043,Security Breach,Critical,Phishing attack,Resolved,2024-11-03 12:57:08.782296,2024-11-03 19:57:08.782296,Run antivirus scan,Database,Query performance issue
+INC0044,Database Error,Low,Slow database queries,Open,2024-10-10 02:57:08.782306,2024-10-11 05:57:08.782306,Fix corrupted data,Network,DNS issue
+INC0045,Network Issue,Low,Network connectivity issues,Closed,2024-05-02 17:57:08.782317,2024-05-03 00:57:08.782317,Clear DNS cache,Application,Crash due to high traffic
+INC0046,Network Issue,Low,Slow network speed,Open,2023-12-31 16:57:08.782327,2024-01-02 03:57:08.782327,Clear DNS cache,Database,Query performance issue
+INC0047,Security Breach,Critical,Data breach,Closed,2024-01-29 01:57:08.782339,2024-01-30 02:57:08.782339,Run antivirus scan,Application,Memory leak
+INC0048,Application Bug,Critical,Memory leak,Resolved,2024-06-08 13:57:08.782349,2024-06-10 11:57:08.782349,Fix memory leak,Database,Connection timeout
+INC0049,Server Failure,Medium,Server crash due to high load,Closed,2024-08-12 22:57:08.782360,2024-08-14 15:57:08.782360,Increase server resources,Server,Configuration issue
+INC0050,Server Failure,Critical,Server crash due to high load,Closed,2024-05-07 06:57:08.782370,2024-05-08 06:57:08.782370,Check server logs,Network,Bandwidth congestion
+INC0051,Database Error,High,Slow database queries,Resolved,2024-06-09 05:57:08.782383,2024-06-11 04:57:08.782383,Fix corrupted data,Security,Phishing attack
+INC0052,Server Failure,Medium,Server downtime,Closed,2024-10-01 19:57:08.782395,2024-10-04 14:57:08.782395,Check server logs,Server,Server overload
+INC0053,Server Failure,High,Overloaded server,Resolved,2024-11-07 13:57:08.782405,2024-11-10 09:57:08.782405,Reboot server,Server,Server overload
+INC0054,Network Issue,Low,Slow network speed,Open,2024-07-21 13:57:08.782416,2024-07-22 18:57:08.782416,Clear DNS cache,Database,Query performance issue
+INC0055,Server Failure,Medium,Server crash due to high load,Closed,2024-03-26 23:57:08.782426,2024-03-27 06:57:08.782426,Increase server resources,Security,Data breach
+INC0056,Server Failure,Medium,Overloaded server,Open,2024-09-10 15:57:08.782436,2024-09-12 07:57:08.782436,Check server logs,Network,Router failure
+INC0057,Network Issue,Critical,Slow network speed,Closed,2024-06-25 18:57:08.782457,2024-06-28 18:57:08.782457,Increase bandwidth,Security,Phishing attack
+INC0058,Network Issue,High,Slow network speed,Resolved,2024-07-29 07:57:08.782482,2024-07-31 21:57:08.782482,Increase bandwidth,Network,Bandwidth congestion
+INC0059,Database Error,Medium,Data corruption,Closed,2024-11-20 10:57:08.782503,2024-11-22 12:57:08.782503,Optimize database queries,Server,Hardware failure
+INC0060,Network Issue,Low,Slow network speed,Closed,2023-12-21 01:57:08.782514,2023-12-23 12:57:08.782514,Clear DNS cache,Network,Router failure
+INC0061,Database Error,Low,Database connection failure,Open,2024-10-29 12:57:08.782525,2024-11-01 05:57:08.782525,Restart database,Application,Memory leak
+INC0062,Network Issue,Critical,DNS resolution problem,Open,2024-06-20 02:57:08.782535,2024-06-22 16:57:08.782535,Reset router,Database,Connection timeout
+INC0063,Database Error,Medium,Database connection failure,Resolved,2024-04-23 21:57:08.782546,2024-04-25 20:57:08.782546,Optimize database queries,Application,Crash due to high traffic
+INC0064,Security Breach,Medium,Phishing attack,Closed,2024-09-04 20:57:08.782556,2024-09-07 16:57:08.782556,Run antivirus scan,Network,DNS issue
+INC0065,Server Failure,High,Overloaded server,Open,2024-08-07 10:57:08.782566,2024-08-08 21:57:08.782566,Reboot server,Security,Phishing attack
+INC0066,Database Error,Low,Database connection failure,Resolved,2024-08-03 14:57:08.782576,2024-08-05 17:57:08.782576,Fix corrupted data,Security,Malware infection
+INC0067,Server Failure,Low,Server crash due to high load,Resolved,2024-12-05 00:57:08.782587,2024-12-07 00:57:08.782587,Increase server resources,Security,Phishing attack
+INC0068,Database Error,Low,Slow database queries,Open,2024-10-22 07:57:08.782599,2024-10-24 03:57:08.782599,Fix corrupted data,Network,Router failure
+INC0069,Application Bug,Medium,Application crash,Open,2024-04-15 11:57:08.782609,2024-04-16 07:57:08.782609,Release a new update,Network,Cable disconnection
+INC0070,Database Error,Medium,Database connection failure,Resolved,2024-11-16 21:57:08.782619,2024-11-18 15:57:08.782619,Fix corrupted data,Network,Cable disconnection
+INC0071,Security Breach,Low,Phishing attack,Closed,2024-12-06 01:57:08.782631,2024-12-06 08:57:08.782631,Patch vulnerabilities,Server,Power outage
+INC0072,Security Breach,High,Phishing attack,Resolved,2024-06-13 02:57:08.782641,2024-06-15 22:57:08.782641,Change credentials,Security,Malware infection
+INC0073,Application Bug,High,Application crash,Resolved,2024-10-28 03:57:08.782652,2024-10-29 02:57:08.782652,Fix memory leak,Database,Data corruption
+INC0074,Network Issue,High,Network connectivity issues,Resolved,2024-07-04 19:57:08.782662,2024-07-05 00:57:08.782662,Increase bandwidth,Security,Malware infection
+INC0075,Security Breach,Low,Phishing attack,Open,2024-04-13 08:57:08.782672,2024-04-14 02:57:08.782672,Run antivirus scan,Network,Cable disconnection
+INC0076,Server Failure,Critical,Server crash due to high load,Open,2023-12-28 14:57:08.782683,2023-12-30 02:57:08.782683,Increase server resources,Server,Power outage
+INC0077,Application Bug,Critical,Memory leak,Open,2024-12-13 15:57:08.782693,2024-12-15 02:57:08.782693,Release a new update,Application,Bug in code
+INC0078,Database Error,Low,Database connection failure,Closed,2024-03-14 01:57:08.782704,2024-03-16 16:57:08.782704,Optimize database queries,Network,Cable disconnection
+INC0079,Server Failure,Critical,Server downtime,Closed,2024-12-06 16:57:08.782715,2024-12-07 17:57:08.782715,Increase server resources,Security,Data breach
+INC0080,Security Breach,High,Data breach,Resolved,2024-08-24 10:57:08.782725,2024-08-25 09:57:08.782725,Run antivirus scan,Database,Query performance issue
+INC0081,Server Failure,Critical,Server downtime,Closed,2024-08-03 03:57:08.782734,2024-08-04 13:57:08.782734,Reboot server,Security,Data breach
+INC0082,Application Bug,Critical,Application crash,Closed,2024-05-20 01:57:08.782745,2024-05-20 22:57:08.782745,Fix memory leak,Network,DNS issue
+INC0083,Server Failure,Low,Server downtime,Closed,2024-02-27 14:57:08.782755,2024-02-29 08:57:08.782755,Increase server resources,Application,Bug in code
+INC0084,Database Error,High,Slow database queries,Closed,2024-11-09 09:57:08.782766,2024-11-10 21:57:08.782766,Optimize database queries,Server,Power outage
+INC0085,Security Breach,Low,Unauthorized access,Open,2024-09-28 19:57:08.782776,2024-09-30 07:57:08.782776,Change credentials,Database,Data corruption
+INC0086,Database Error,Medium,Data corruption,Open,2024-02-03 09:57:08.782786,2024-02-04 17:57:08.782786,Fix corrupted data,Security,Malware infection
+INC0087,Application Bug,Low,UI freezing,Closed,2024-08-27 08:57:08.782797,2024-08-30 07:57:08.782797,Debug the code,Application,Memory leak
+INC0088,Database Error,Medium,Database connection failure,Open,2024-12-16 11:57:08.782807,2024-12-17 01:57:08.782807,Fix corrupted data,Server,Server overload
+INC0089,Server Failure,Low,Server downtime,Resolved,2024-01-05 01:57:08.782818,2024-01-05 15:57:08.782818,Check server logs,Application,Memory leak
+INC0090,Server Failure,Critical,Server downtime,Resolved,2024-11-26 19:57:08.782828,2024-11-29 15:57:08.782828,Check server logs,Server,Server overload
+INC0091,Server Failure,Critical,Server crash due to high load,Closed,2024-07-31 08:57:08.782844,2024-08-01 01:57:08.782844,Reboot server,Server,Power outage
+INC0092,Application Bug,Medium,Memory leak,Closed,2024-01-09 18:57:08.782854,2024-01-12 05:57:08.782854,Fix memory leak,Application,Bug in code
+INC0093,Security Breach,Low,Data breach,Open,2024-05-08 06:57:08.782864,2024-05-09 22:57:08.782864,Patch vulnerabilities,Network,Bandwidth congestion
+INC0094,Security Breach,High,Unauthorized access,Resolved,2024-01-01 08:57:08.782876,2024-01-03 15:57:08.782876,Change credentials,Server,Hardware failure
+INC0095,Security Breach,Low,Unauthorized access,Resolved,2024-10-20 06:57:08.782886,2024-10-22 19:57:08.782886,Change credentials,Security,Data breach
+INC0096,Security Breach,Medium,Phishing attack,Open,2024-10-15 14:57:08.782897,2024-10-17 03:57:08.782897,Patch vulnerabilities,Server,Power outage
+INC0097,Application Bug,Low,Application crash,Open,2024-11-17 10:57:08.782907,2024-11-19 11:57:08.782907,Debug the code,Application,Bug in code
+INC0098,Network Issue,High,DNS resolution problem,Open,2024-09-28 08:57:08.782917,2024-09-30 08:57:08.782917,Increase bandwidth,Security,Malware infection
+INC0099,Security Breach,Low,Malware infection,Closed,2024-09-21 12:57:08.782927,2024-09-23 02:57:08.782927,Patch vulnerabilities,Security,Data breach
+INC0100,Network Issue,Critical,Slow network speed,Closed,2024-05-31 08:57:08.782938,2024-06-03 02:57:08.782938,Reset router,Database,Connection timeout
