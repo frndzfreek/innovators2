@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Incident Tracker</title>
+</head>
+<body>
+    <h1>Incident Submission Form</h1>
+    <form action="/submit" method="POST">
+        <label for="incident_title">Incident Title:</label>
+        <input type="text" id="incident_title" name="incident_title" required><br><br>
+
+        <label for="incident_description">Incident Description:</label>
+        <textarea id="incident_description" name="incident_description" required></textarea><br><br>
+
+        <label for="severity">Severity:</label>
+        <select id="severity" name="severity" required>
+            <option value="Critical">Critical</option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select><br><br>
+
+        <label for="assigned_engineer">Assigned Engineer:</label>
+        <select id="assigned_engineer" name="assigned_engineer" required>
+            <option value="Engineer 1">Engineer 1</option>
+            <option value="Engineer 2">Engineer 2</option>
+            <option value="Engineer 3">Engineer 3</option>
+        </select><br><br>
+
+        <label for="status">Status:</label>
+        <select id="status" name="status" required>
+            <option value="New">New</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Resolved">Resolved</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Current Incident Log</h2>
+    {% if incident %}
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Severity</th>
+                <th>Status</th>
+                <th>Assigned Engineer</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ incident.id }}</td>
+                <td>{{ incident.title }}</td>
+                <td>{{ incident.description }}</td>
+                <td>{{ incident.category }}</td>
+                <td>{{ incident.severity }}</td>
+                <td>{{ incident.status }}</td>
+                <td>{{ incident.assigned_to }}</td>
+            </tr>
+        </tbody>
+    </table>
+    {% else %}
+    <p>No incidents logged yet.</p>
+    {% endif %}
+</body>
+</html>
