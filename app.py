@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+import json
 
 # Define severity levels
 SEVERITY_LEVELS = ['Critical', 'High', 'Medium', 'Low']
@@ -32,12 +33,19 @@ class Incident(db.Model):
     time_reported = db.Column(db.DateTime, default=datetime.utcnow)
     time_resolved = db.Column(db.DateTime)
 
+# Load the articles data (solutions)
+with open('data/articles/incident_solutions.json', 'r') as file:
+    articles_data = json.load(file)
+
 # Home route to display the most recent incident
 @app.route('/')
 def home():
-    # Retrieve the most recent incident
     latest_incident = Incident.query.order_by(Incident.id.desc()).first()
-    return render_template('index.html', incident=latest_incident)
+    
+    # Get the solutions for the latest incident's category
+    solutions = get_solutions(latest_incident.category) if latest_incident else []
+    
+    return render_template('index.html', incident=latest_incident, solutions=solutions)
 
 # Function to automatically categorize incidents based on description
 def categorize_incident(description):
@@ -48,6 +56,13 @@ def categorize_incident(description):
                 print(f"Category: {category}, Keyword Matched: {keyword}")  # Debugging output
                 return category
     return 'Others'  # Default category if no match found
+
+# Function to get solutions based on category
+def get_solutions(category):
+    for item in articles_data:
+        if item['category'] == category:
+            return item['incidents']
+    return []
 
 # Route to handle incident submission
 @app.route('/submit', methods=['POST'])
