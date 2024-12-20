@@ -65,6 +65,16 @@
             </tr>
         </tbody>
     </table>
+    <h3>Suggested Solutions for This Incident</h3>
+    <ul>
+        {% for solution in solutions %}
+        <li>
+            <strong>{{ solution.incident_title }}:</strong> {{ solution.solution }}
+        </li>
+        {% else %}
+        <p>No solutions available for this category yet.</p>
+        {% endfor %}
+    </ul>
     {% else %}
     <p>No incidents logged yet.</p>
     {% endif %}
